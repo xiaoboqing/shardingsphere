@@ -78,9 +78,8 @@ class ShardingsphereApplicationTests {
     void readerWriterAddCourse() {
         CourseReader course1 = new CourseReader();
         course1.setCourseName("测试");
-        course1.setUserId(123L);
+        course1.setUserId(12344L);
         course1.setCourseStatus("免费");
-        course1.setCourseId(123L);
         course1Mapper.insert(course1);
     }
 
